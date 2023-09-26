@@ -65,23 +65,8 @@ img:hover { color: #5865F2; }
     margin-right: 8px;
 }
 
-/*** STRUCTURE ***/
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
 
-body {
-    font-family: 'gg sans', sans-serif;
-}
-
-header {
-    background-color: #255EE9;
-    padding: 16px 0 0 0;
-    
-}
-
+/*** TEXT ***/
 h1 {
     color: white;
     text-align: center;
@@ -118,6 +103,24 @@ p { font-weight: 400; }
 
 p.white { color: white; }
 
+/*** STRUCTURE ***/
+/* top-bottom order */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'gg sans', sans-serif;
+}
+
+header {
+    background-color: #255EE9;
+    padding: 16px 0 0 0;
+    
+}
+
 .container {
     display: flex;
     width: 90%;
@@ -125,7 +128,6 @@ p.white { color: white; }
     margin: 0 auto;
     justify-content: center;
     align-items: center;
-    /* background-color: #DAA520; */
 }
 
 .logo {
@@ -160,11 +162,6 @@ a:hover {
     width: 25%;
 }
 
-
-.logo, .link, .login {
-    /* border: 2px dashed black; */
-}
-
 .link > div {
     margin: 0 12px;
 }
@@ -172,7 +169,6 @@ a:hover {
 .imgheader {
     display: flex;
     justify-content: center;
-    /* background-color: #3161E0; */
     padding: 50px 3%;
     background-image: url(../img/assets/jumbo.png);
     background-size: 1330px;
@@ -181,7 +177,6 @@ a:hover {
 }
 
 .imgheader > div {
-    /* border: 2px dashed black; */
     height: 400px;
     width: 100%;
     max-width: 45em;
@@ -208,19 +203,15 @@ a:hover {
 }
 
 .img-container .text {
-    /* background-color: #FFC0CB; */
     display: flex;
     flex-direction: column;
-    /* justify-content: space-around; */
     width: 35%;
     max-width: 30em;
     overflow: auto;
 }
 
 .img-container .img {
-    /* background-color: #1E90FF; */
     display: flex;
-    /* justify-content: flex-start; */
     width: 65%;
     max-width: 50em;
 }
@@ -240,7 +231,6 @@ a:hover {
 }
 
 .img-container.big p {
-    /* margin: 0 5%; */
     max-width: 60em;
 }
 
@@ -261,13 +251,11 @@ a:hover {
 }
 
 .img-container .img, .img-container .text {
-    /* border: 2px dashed black; */
     margin: 50px 0;
     height: 400px;
 }
 
 .img-container .img.green {
-    /* background-color: #228B22; */
     width: 100%;
     max-width: 60em;
     height: 600px;
@@ -294,8 +282,6 @@ hr {
 
 
 .social {
-    /* background-color: #F08080; */
-    /* border: 2px dashed black; */
     height: 400px;
     width: 100%;
     max-width: 16em;
@@ -331,8 +317,6 @@ hr {
 .other {
     display: flex;
     flex-direction: column;
-    /* background-color: #20B2AA; */
-    /* border: 2px dashed white; */
     padding-top: 8px;
     height: 400px;
     width: 100%;
@@ -354,7 +338,6 @@ hr {
 
 .signin > div {
     margin-top: 16px;
-    /* background-color: #7FFFD4; */
     display: flex;
     width: 100%;
     max-width: 60em;
@@ -362,7 +345,5 @@ hr {
 }
 
 .bottom-logo, .button {
-    /* border: 2px dashed black; */
-    /* background-color: #FFB6C1; */
     margin: 12px 0;
 }
