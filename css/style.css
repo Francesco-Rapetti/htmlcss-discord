@@ -217,6 +217,29 @@ p {
     max-width: 50em;
 }
 
+.img-container.big {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 5%;
+    max-width: 1100em;
+}
+
+.img-container.big img {
+    width: 80em;
+    max-width: 100%;
+}
+
+.img-container.big p {
+    /* margin: 0 5%; */
+    max-width: 60em;
+}
+
+.img-container.big p, .img-container.big h2 {
+    text-align: center;
+}
+
 .img-container.white .img { 
     justify-content: flex-start;
 }
@@ -236,8 +259,8 @@ p {
 }
 
 .img-container .img.green {
-    background-color: #228B22;
-    width: 80%;
+    /* background-color: #228B22; */
+    width: 100%;
     max-width: 60em;
     height: 600px;
 }
