@@ -35,7 +35,7 @@ button.purple {
 }
 
 button:hover { box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19); } 
-button.white:hover { color: #5865F2; }
+button.white:hover { color: #5865F2; fill: #5865F2; }
 button.black:hover { background-color: #313338; }
 button.purple:hover { background-color: #7983F5; }
 img:hover { color: #5865F2; }
@@ -51,7 +51,7 @@ img:hover { color: #5865F2; }
 }
 
 /*** ICONS ***/
-img#arrow {
+#arrow {
     width: 8px;
     padding-top: 4px;
     margin-right: 8px;
@@ -129,8 +129,9 @@ p {
 }
 
 
-/* .logo, .link, .login {
-} */
+.logo, .link, .login {
+    /* border: 2px dashed black; */
+}
 
 .link > div {
     margin: 0 12px;
@@ -148,7 +149,7 @@ p {
 }
 
 .imgheader > div {
-    border: 2px dashed black;
+    /* border: 2px dashed black; */
     height: 400px;
     width: 100%;
     max-width: 45em;
